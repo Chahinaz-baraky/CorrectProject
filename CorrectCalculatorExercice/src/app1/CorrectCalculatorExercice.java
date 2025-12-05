@@ -6,4 +6,8 @@ public class CorrectCalculatorExercice {
         return a + b + c;
     }
 
+    public int rest(int a, int b) {
+        return a - b ;
+    }
+
 }

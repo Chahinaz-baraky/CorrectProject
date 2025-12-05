@@ -20,8 +20,11 @@ void main() {
     int num3 = Integer.parseInt(input.nextLine().trim());
 
     int result = c.add(num1, num2, num3);
+    int result1 = c.rest(num1, num2);
 
     System.out.println("Addition of three integers: " + result);
+    System.out.println("Substraction of the first two integers: " + result1);
+
 
     input.close();
 
