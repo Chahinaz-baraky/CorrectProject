@@ -10,4 +10,10 @@ public class CorrectCalculatorExercice {
         return a - b ;
     }
 
+    public int rest2(int a, int b, int c) {
+        return a + b - c  ;
+    }
+
+
+
 }

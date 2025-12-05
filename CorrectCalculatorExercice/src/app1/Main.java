@@ -21,9 +21,11 @@ void main() {
 
     int result = c.add(num1, num2, num3);
     int result1 = c.rest(num1, num2);
+    int result2 = c.rest2(num1,num2 ,num3);
 
     System.out.println("Addition of three integers: " + result);
     System.out.println("Substraction of the first two integers: " + result1);
+    System.out.println("Substraction of the first two integers from the third integer: " + result2);
 
 
     input.close();
